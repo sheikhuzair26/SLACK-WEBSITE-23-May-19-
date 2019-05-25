@@ -3,8 +3,9 @@
     margin: 0px;
 }
 
-main {
+body {
     display: flex;
+    font-family: 'Varela Round', sans-serif;
 }
 
 #purple-container {
@@ -35,6 +36,17 @@ main {
 
 .purple i {
     color: #a58fa6;
+    cursor: pointer;
+}
+
+.purple i:hover {
+    color: white;
+}
+
+.common-text:hover {
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
 }
 
 .intro {
@@ -45,6 +57,7 @@ main {
 .tk-intro {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .bell-icon span {
@@ -60,6 +73,15 @@ main {
 
 i.fas.fa-circle {
     color: #2bac76;
+    font-size: 12px;
+}
+
+.slack-bolt i.fas.fa-heart {
+    color: #2bac76;
+    font-size: 12px;
+}
+
+i.far.fa-circle, i.fas.fa-lock {
     font-size: 12px;
 }
 
@@ -86,7 +108,8 @@ i.fas.fa-circle {
     padding-left: 10px;
     color: white;
 }
-.thread{
+
+.thread {
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -94,8 +117,225 @@ i.fas.fa-circle {
     margin: 3px 0 20px 0;
 }
 
-.thread span{
+.thread span {
     color: #937894;
     padding-left: 10px;
+}
 
+.channels, .direct-msg, .Apps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.common-text.font {
+    font-size: 14px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.common-text.font a {
+    text-decoration: none;
+    color: #937894;
+}
+
+.purple .common-text.font:hover {
+    background-color: #1164a3;
+    color: #f9fbfd;
+}
+
+.common-text.font:hover a {
+    color: #f9fbfd;
+}
+
+.common-text.font:hover i {
+    color: #f9fbfd;
+}
+
+.channels-names, .slack-bolt {
+    margin-bottom: 18px;
+}
+
+.Apps-name, .slack-bolt, .channels-names {
+    padding-top: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 24px;
+}
+
+.rates {
+    font-size: 12px;
+    margin: 0 3px;
+    padding: 0px 4px;
+    border-style: solid;
+    border-bottom: none;
+    border-width: 1px;
+    border-top: none;
+}
+
+span.rates.right {
+    border-right: none;
+}
+
+span.rates.left {
+    border-left: none;
+}
+
+.ratings {
+    color: #b7b6b7;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1d1c1d;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+fieldset {
+    text-align: center;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: -11px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: lightgray;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.settings i {
+    margin: 3px;
+}
+
+/* MERGING SECTIONS */
+
+#mergin-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 84px;
+}
+
+aside {
+    border: 1px solid black;
+}
+
+.heart i {
+    color: #f64030;
+}
+
+.heart {
+    border-radius: 15px;
+    padding: 3px;
+    border: 2px solid lightblue;
+    background-color: #e8f5fa;
+    color: #2772ac;
+    font-weight: bold;
+}
+
+.smile i {
+    color: #fef69c;
+}
+
+.like i {
+    color: #fded4b;
+}
+
+.icons-pics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 6px;
+}
+
+.rep {
+    color: #2772ac;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px 0 0 4px;
+}
+
+.duration {
+    margin: 0 12px 0 9px;
+    font-size: 12px;
+    color: #a6a5a6;
+}
+
+#heart, .like, .smile {
+    margin: 0px 6px 0px 7px;
+}
+
+#mergin-sections fieldset legend {
+    text-align: center;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 50px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 25px;
+}
+
+i.far.fa-comment-dots {
+    font-size: xx-small;
+}
+
+.user-para {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.syeda {
+    font-weight: bold;
+}
+
+.chk {
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 0px 0px 2px 35px;
+}
+
+.chk i {
+    color: green;
+}
+
+.map-pin {
+    font-size: xx-small;
+    color: #7d9a51;
 }
