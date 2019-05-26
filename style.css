@@ -426,6 +426,9 @@ i.far.fa-comment-dots {
         align-items: center;
         padding: 9px 0px;
     }
+    .msg-bar {
+        margin: 15px 35px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -445,6 +448,9 @@ i.far.fa-comment-dots {
     .duration {
         font-size: 9px;
     }
+    .msg-bar {
+        margin: 15px 35px;
+    }
 }
 
 @media screen and (max-width: 370px) {
@@ -459,7 +465,7 @@ i.far.fa-comment-dots {
         padding: 9px 0px;
     }
     .msg-bar {
-        margin: 0px 35px;
+        margin: 15px 35px;
     }
     .icons-pics a {
         font-size: 7px;
