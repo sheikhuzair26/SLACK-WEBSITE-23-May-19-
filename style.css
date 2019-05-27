@@ -5,16 +5,11 @@
 
 body {
     display: flex;
-    /* font-family: 'Varela Round', sans-serif; */
-    /* font-family: 'Ranga', cursive; */
-    /* font-family: 'Libre Baskerville', serif; */
     font-family: 'Fjalla One', sans-serif;
-    /* font-family: 'Lemonada', cursive; */
 }
 
 #purple-container {
     display: flex;
-    /* flex-direction: row; */
 }
 
 .dark-purple {
